@@ -2,7 +2,7 @@ Hand-in your answers to the following problems in Section 1.9 of textbook "Progr
 
 1) Exploration problem 1.10(a) and 1.10(b)
 2) Exploration problem 1.11
-3) Exploration problem 1.12 
+3) Exploration problem 1.12(a) 
 
 For using Linux as a virtual machine on Windows OS, download and install virtualbox and centos virtualbox image on your Windows system. 
 Download locations:
