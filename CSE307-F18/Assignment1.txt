@@ -11,7 +11,8 @@ https://www.osboxes.org/centos/
 
 Following problem is optional for undergraduates, but mandatory for graduate students.
 
-4) Exploration problem 1.15
+4) Exploration problem 1.12(b) an 1.12(c)
+5) Exploration problem 1.15
 
 Please submit your assignments by Tuesday September 11 EoD. 
 
