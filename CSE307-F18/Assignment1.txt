@@ -1,8 +1,8 @@
-Hand-in your answers to the following problems in Section 1.9 of textbook "Programming Language Pragmatics - 4th Edition". 
+Answer the following problems in Section 1.9 of textbook "Programming Language Pragmatics - 4th Edition". 
 
-1) Exploration problem 1.10(a) and 1.10(b)
-2) Exploration problem 1.11
-3) Exploration problem 1.12(a) 
+1) Exploration problem 1.10(a) and 1.10(b)				(Marks - UG: 12, PG: 7)
+2) Exploration problem 1.11						(Marks - UG: 6,	PG: 3)
+3) Exploration problem 1.12(a) 						(Marks - UG: 7, PG: 4)
 
 For using Linux as a virtual machine on Windows OS, download and install virtualbox and centos virtualbox image on your Windows system. 
 Download locations:
@@ -11,8 +11,8 @@ https://www.osboxes.org/centos/
 
 Following problem is optional for undergraduates, but mandatory for graduate students.
 
-4) Exploration problem 1.12(b) an 1.12(c)
-5) Exploration problem 1.15
+4) Exploration problem 1.12(b) an 1.12(c) 				(Marks - PG: 7)
+5) Exploration problem 1.15						(Marks - PG: 4)
 
 Please submit your assignments by Tuesday September 11 EoD. 
 
