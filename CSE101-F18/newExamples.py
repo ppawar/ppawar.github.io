@@ -6,37 +6,12 @@
 
 a = [1,2,3,4,5]
 
-def reverse2(a):
-    newlist = []
-    for i in range(len(a) - 1, -1, -1):
-        newlist.append(a[i])
-    return newlist
-print(reverse2(a))
-
-def reverse1(a):
-    newlist = []
-    while len(a) > 0:
-        newlist.append(a[-1])
-        a.pop()
-    return newlist
-print(reverse1(a))
-
-a = [1,2,3,4,5]
-
 def reverse(a):
     newlist = []
     for item in a:
         newlist = [item] + newlist
         print ("item = ", item, " newlist = ", newlist)
     return newlist
-
-
-def recReverse(a):
-    #base
-    if len(a) == 0:
-        return []
-    else:
-        return [a[-1]] + recReverse(a[:-1])
 
 
 #
@@ -88,8 +63,6 @@ def doubleAll(a):
     else:
         return [2*a[0]] + doubleAll(a[1:])
 
-print("recReverse: [1, 2, 3, 4, 5]")
-print(recReverse([1, 2, 3, 4, 5]))
 
 print("doubleAll: [1, 2, 3, 4, 5]")
 print(doubleAll([1, 2, 3, 4, 5]))
