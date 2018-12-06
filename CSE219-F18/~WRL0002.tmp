@@ -641,7 +641,7 @@ w\:* {behavior:url(#default#VML);}
 	mso-font-charset:0;
 	mso-generic-font-family:swiss;
 	mso-font-pitch:variable;
-	mso-font-signature:-536858881 -1073711013 9 0 511 0;}
+	mso-font-signature:3 0 0 0 1 0;}
 @font-face
 	{font-family:Wingdings;
 	panose-1:5 0 0 0 0 0 0 0 0 0;
@@ -655,7 +655,7 @@ w\:* {behavior:url(#default#VML);}
 	mso-font-charset:0;
 	mso-generic-font-family:roman;
 	mso-font-pitch:variable;
-	mso-font-signature:3 0 0 0 1 0;}
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
 @font-face
 	{font-family:Calibri;
 	panose-1:2 15 5 2 2 2 4 3 2 4;
@@ -1003,8 +1003,8 @@ div.WordSection1
 	text-indent:-.25in;
 	font-family:Wingdings;}
 @list l1
-	{mso-list-id:208222644;
-	mso-list-template-ids:-242558768;}
+	{mso-list-id:224608366;
+	mso-list-template-ids:195355934;}
 @list l1:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -1078,8 +1078,8 @@ div.WordSection1
 	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
 @list l2
-	{mso-list-id:266233509;
-	mso-list-template-ids:1156643380;}
+	{mso-list-id:434446178;
+	mso-list-template-ids:1255408778;}
 @list l2:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -1562,7 +1562,8 @@ background:white'><![if !supportLists]><span style='font-size:13.0pt;
 line-height:105%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol;color:#333333'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.0pt;line-height:105%;
-font-family:"Helvetica",sans-serif;color:#333333'>Improving program performance.<o:p></o:p></span></p>
+font-family:"Helvetica",sans-serif;color:#333333'>Improving program
+performance.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l4 level1 lfo2;
 background:white'><![if !supportLists]><span style='font-size:13.0pt;
@@ -1636,9 +1637,9 @@ line-height:105%;font-family:"Helvetica",sans-serif;color:#333333'>C or higher
 in CSE 214 and CSE major or ECE major.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='background:white'><span style='font-size:13.0pt;
-line-height:105%;font-family:"Helvetica",sans-serif;color:#333333'>In more detail,
-you are expected to have the following knowledge and skills at the beginning of
-the course:<o:p></o:p></span></p>
+line-height:105%;font-family:"Helvetica",sans-serif;color:#333333'>In more
+detail, you are expected to have the following knowledge and skills at the
+beginning of the course:<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l4 level1 lfo2;
 background:white'><![if !supportLists]><span style='font-size:13.0pt;
@@ -2960,9 +2961,7 @@ frequently.<o:p></o:p></span></p>
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
-  style='font-size:10.0pt;line-height:105%;font-family:"Arial",sans-serif'><a
-  href="Android_developement_tutorial.pdf">Slides</a> <a
-  href="AndroidVideos.txt">Video tutorials</a> <o:p></o:p></span></p>
+  style='font-size:10.0pt;line-height:105%;font-family:"Arial",sans-serif'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:45'>
@@ -2977,15 +2976,15 @@ frequently.<o:p></o:p></span></p>
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
-  style='font-size:10.0pt;line-height:105%;font-family:"Arial",sans-serif'>Review
-  for Final<o:p></o:p></span></p>
+  style='font-size:10.0pt;line-height:105%;font-family:"Arial",sans-serif'>Recitation<o:p></o:p></span></p>
   </td>
   <td width=168 valign=top style='width:125.9pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
-  style='font-size:10.0pt;line-height:105%;font-family:"Arial",sans-serif'><o:p>&nbsp;</o:p></span></p>
+  style='font-size:10.0pt;line-height:105%;font-family:"Arial",sans-serif'>Quiz
+  4<o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:46'>
@@ -3018,7 +3017,7 @@ frequently.<o:p></o:p></span></p>
   border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
-  style='color:black'>W16:12/12</span><span style='font-size:10.0pt;line-height:
+  style='color:black'>W16:12/11</span><span style='font-size:10.0pt;line-height:
   105%;font-family:"Arial",sans-serif'><o:p></o:p></span></p>
   </td>
   <td width=204 valign=top style='width:153.0pt;border-top:none;border-left:
@@ -3026,8 +3025,8 @@ frequently.<o:p></o:p></span></p>
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
-  style='font-size:10.0pt;line-height:105%;font-family:"Arial",sans-serif'>Final
-  project Submission and Grading<o:p></o:p></span></p>
+  style='font-size:10.0pt;line-height:105%;font-family:"Arial",sans-serif'>Review
+  for Final<o:p></o:p></span></p>
   </td>
   <td width=168 valign=top style='width:125.9pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
@@ -3048,10 +3047,9 @@ margin-left:0in;text-align:center;background:white'>
 
 <h2 style='margin-top:15.0pt;margin-right:0in;margin-bottom:7.5pt;margin-left:
 0in;background:white'><b><span style='font-size:22.5pt;line-height:105%;
-font-family:"Helvetica",sans-serif;color:#333333'>Grading Scheme and Grades
-Calculation</span></b><span style='font-size:22.5pt;line-height:105%;
-font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
-color:#333333'><o:p></o:p></span></h2>
+font-family:"Helvetica",sans-serif;color:#333333'>Grading Scheme and Grades Calculation</span></b><span
+style='font-size:22.5pt;line-height:105%;font-family:"Helvetica",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#333333'><o:p></o:p></span></h2>
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
 text-align:justify;line-height:normal;background:white'><span style='font-size:
@@ -3135,7 +3133,7 @@ style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_2"
  visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="index_files/image003.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=474 height=250
-src="index_files/image005.jpg" v:shapes="Picture_x0020_2"><![endif]></span><span
+src="index_files/image004.jpg" v:shapes="Picture_x0020_2"><![endif]></span><span
 style='font-size:10.5pt;font-family:"Helvetica",sans-serif;color:#333333'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
@@ -3197,8 +3195,8 @@ color:#333333'>Academic Integrity Statement:</span></b><span style='font-size:
 
 <p class=MsoNormal style='text-align:justify;background:white'><span
 style='font-size:13.0pt;line-height:105%;font-family:"Helvetica",sans-serif;
-color:#333333'>Each student must pursue his or her academic goals honestly and
-be personally accountable for all submitted work. Representing another person's
+color:#333333'>Each student must pursue his or her academic goals honestly and be
+personally accountable for all submitted work. Representing another person's
 work as your own is always wrong. Faculty are required to report any suspected
 instances of academic dishonesty to the Academic Judiciary. Faculty in the
 Health Sciences Center (School of Health Technology &amp; Management, Nursing,
