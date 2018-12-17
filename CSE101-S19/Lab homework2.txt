@@ -1,0 +1,16 @@
+Go through the first three videos on “Python tutorial for beginners”
+
+https://www.youtube.com/watch?v=41qgdwd3zAg&index=1&list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n 
+
+4) Built-in modules and functions
+5) Save and run Python files
+6) Strings
+7) Python Lists
+8) Python Slices or Slicing
+9) Python IF Else statements
+10) Elif and nested if statements
+11) Comparison operators, Logical
+12) While Loop and For Loops in Python
+
+Practice problems: 
+Try solving Python problems made available at https://codingbat.com/python. 
