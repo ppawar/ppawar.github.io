@@ -1,9 +1,0 @@
-Go through the first three videos on “Python tutorial for beginners”
-
-https://www.youtube.com/watch?v=41qgdwd3zAg&index=1&list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n 
-
-1) Getting started and installing
-2) Numbers and maths Python
-3) Variables and inputs
-
-4) Write a python code to find average of a set of 10 numbers. 
