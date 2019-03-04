@@ -15,16 +15,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>SUNY Korea</o:Author>
   <o:LastAuthor>Pravin Pawar</o:LastAuthor>
-  <o:Revision>7</o:Revision>
-  <o:TotalTime>83</o:TotalTime>
-  <o:Created>2019-02-24T10:56:00Z</o:Created>
-  <o:LastSaved>2019-03-04T02:37:00Z</o:LastSaved>
+  <o:Revision>24</o:Revision>
+  <o:TotalTime>129</o:TotalTime>
+  <o:Created>2019-02-24T09:55:00Z</o:Created>
+  <o:LastSaved>2019-03-04T03:25:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>170</o:Words>
-  <o:Characters>971</o:Characters>
-  <o:Lines>8</o:Lines>
-  <o:Paragraphs>2</o:Paragraphs>
-  <o:CharactersWithSpaces>1139</o:CharactersWithSpaces>
+  <o:Words>372</o:Words>
+  <o:Characters>2121</o:Characters>
+  <o:Lines>17</o:Lines>
+  <o:Paragraphs>4</o:Paragraphs>
+  <o:CharactersWithSpaces>2489</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
 </xml><![endif]-->
@@ -825,6 +825,9 @@ p.msopapdefault, li.msopapdefault, div.msopapdefault
 	font-family:"Times New Roman",serif;
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -843,6 +846,87 @@ p.msopapdefault, li.msopapdefault, div.msopapdefault
 	mso-paper-source:0;}
 div.WordSection1
 	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:871916649;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1121965376 2027997916 -684818640 -719817744 971112542 -1785794052 -459403962 -1622270486 482372828 -1169530216;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\25E6;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Calibri",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\25E6;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Calibri",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\25E6;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Calibri",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\25E6;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Calibri",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\25E6;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Calibri",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\25E6;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Calibri",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\25E6;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Calibri",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\25E6;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Calibri",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\25E6;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Calibri",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
 -->
 </style>
 <!--[if gte mso 10]>
@@ -886,7 +970,7 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:26.0pt;
   font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:#215C65'>Spring 2019 – CSE216 TAs WEEKLY WORK SCHEDULE <o:p></o:p></span></p>
+  color:#215C65'>Spring 2019 - CSE101 TAs WEEKLY WORK SCHEDULE <o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:1;height:8.1pt'>
@@ -1067,48 +1151,58 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>9:10 AM - 9:30 AM<o:p></o:p></span></p>
+  color:black'>12:30 PM - 1:00 PM<o:p></o:p></span></p>
   </td>
   <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
+  height:24.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  mso-fareast-font-family:"Times New Roman";color:black'>Salman <span
+  class=SpellE>Qavi</span> (Lab C105)<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Mayukh</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Maitra<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Soyoon</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Jeon <o:p></o:p></span></p>
   </td>
   <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
+  height:24.0pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:105%;font-family:
+  "Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
+  color:black'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
+  height:24.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  normal'><span style='font-size:10.0pt;mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
+  height:24.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  normal'><span style='font-size:10.0pt;mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
+  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'></td>
   <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
@@ -1143,25 +1237,42 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>9:30 AM - 10:00 AM<o:p></o:p></span></p>
+  color:black'>1:00 PM - 1:50 PM<o:p></o:p></span></p>
   </td>
   <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
+  height:24.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  mso-fareast-font-family:"Times New Roman";color:black'>Salman <span
+  class=SpellE>Qavi</span> (Lab C105)<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Mayukh</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Maitra<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Soyoon</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Jeon <o:p></o:p></span></p>
   </td>
   <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
+  height:24.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
@@ -1169,22 +1280,33 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
   padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Yoora</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Kim<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
+  height:24.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -1206,11 +1328,11 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:7;height:24.0pt'>
+ <tr style='mso-yfti-irow:7;height:10.75pt'>
   <td width=64 nowrap valign=bottom style='width:48.1pt;border:solid #3F752B 1.0pt;
   border-top:none;mso-border-left-alt:solid #3F752B .5pt;mso-border-bottom-alt:
   solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  height:10.75pt'>
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
@@ -1219,56 +1341,50 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=169 nowrap valign=bottom style='width:126.7pt;border-top:none;
   border-left:none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:10.75pt'>
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>10:00 AM - 10:40 AM<o:p></o:p></span></p>
+  color:black'>1:50 PM - 3:00 PM<o:p></o:p></span></p>
   </td>
   <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid windowtext .5pt;
   background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
+  height:10.75pt'></td>
   <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:white;mso-background-themecolor:
+  background1;padding:0in 5.4pt 0in 5.4pt;height:10.75pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
+  mso-border-top-alt:solid #3F752B .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid #3F752B .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:10.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Yoora</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Kim<o:p></o:p></span></p>
+  </td>
+  <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
   background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  height:10.75pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=147 valign=top style='width:110.6pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>Ji Won<o:p></o:p></span></p>
-  </td>
   <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:white;padding:0in 5.4pt 0in 5.4pt;height:10.75pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -1276,7 +1392,7 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:10.75pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -1284,7 +1400,7 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=133 valign=bottom style='width:99.75pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:10.75pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -1307,47 +1423,46 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>10:40 AM - 11:40 PM<o:p></o:p></span></p>
+  color:black'>3:00 PM - 4:00 PM<o:p></o:p></span></p>
   </td>
   <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid windowtext .5pt;
   background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
   height:24.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;Stephanie<o:p></o:p></span></p>
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
   </td>
   <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:white;mso-background-themecolor:
+  background1;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
+  mso-border-top-alt:solid #3F752B .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid #3F752B .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Jong Kwon Park<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
   background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
   height:24.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=147 valign=top style='width:110.6pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>Ji Won<o:p></o:p></span></p>
   </td>
   <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
@@ -1391,12 +1506,11 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>11:40 AM - 12:00 PM<o:p></o:p></span></p>
+  color:black'>4:00 PM - 5:00 PM<o:p></o:p></span></p>
   </td>
   <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid windowtext .5pt;
   background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
   height:24.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
@@ -1404,186 +1518,29 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
   </td>
   <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:white;mso-background-themecolor:
+  background1;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
   background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
   height:24.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=147 valign=top style='width:110.6pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal><span style='font-size:10.0pt;line-height:105%;font-family:
-  "Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>Ji Won<o:p></o:p></span></p>
-  </td>
-  <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=133 valign=bottom style='width:99.75pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:10;height:24.0pt'>
-  <td width=64 nowrap valign=bottom style='width:48.1pt;border:solid #3F752B 1.0pt;
-  border-top:none;mso-border-left-alt:solid #3F752B .5pt;mso-border-bottom-alt:
-  solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=169 nowrap valign=bottom style='width:126.7pt;border-top:none;
-  border-left:none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>12:00 PM - 1:00 PM<o:p></o:p></span></p>
-  </td>
-  <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal><span style='font-size:10.0pt;line-height:105%;font-family:
-  "Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=147 valign=top style='width:110.6pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'></td>
-  <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=133 valign=bottom style='width:99.75pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:11;height:24.0pt'>
-  <td width=64 nowrap valign=bottom style='width:48.1pt;border:solid #3F752B 1.0pt;
-  border-top:none;mso-border-left-alt:solid #3F752B .5pt;mso-border-bottom-alt:
-  solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=169 nowrap valign=bottom style='width:126.7pt;border-top:none;
-  border-left:none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>1:00 PM - 1:30 PM<o:p></o:p></span></p>
-  </td>
-  <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'></td>
-  <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  mso-fareast-font-family:"Times New Roman";color:black'>Jong Kwon Park<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
   background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
   height:24.0pt'>
@@ -1594,7 +1551,7 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:white;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -1611,6 +1568,190 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
   background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10;height:13.45pt'>
+  <td width=64 nowrap valign=bottom style='width:48.1pt;border:solid #3F752B 1.0pt;
+  border-top:none;mso-border-left-alt:solid #3F752B .5pt;mso-border-bottom-alt:
+  solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:10.0pt;
+  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
+  color:black'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=169 nowrap valign=bottom style='width:126.7pt;border-top:none;
+  border-left:none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:10.0pt;
+  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
+  color:black'>5:00 PM - 5:30 PM<o:p></o:p></span></p>
+  </td>
+  <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Sigauke</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> <span class=SpellE>Cogitater</span> (Lecture
+  C105)<o:p></o:p></span></p>
+  </td>
+  <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Soomin Kim <o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Yoora</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Kim<o:p></o:p></span></p>
+  </td>
+  <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
+  height:13.45pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:white;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=133 valign=bottom style='width:99.75pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:13.45pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11;height:3.55pt'>
+  <td width=64 nowrap valign=bottom style='width:48.1pt;border:solid #3F752B 1.0pt;
+  border-top:none;mso-border-left-alt:solid #3F752B .5pt;mso-border-bottom-alt:
+  solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;padding:0in 5.4pt 0in 5.4pt;
+  height:3.55pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:10.0pt;
+  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
+  color:black'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=169 nowrap valign=bottom style='width:126.7pt;border-top:none;
+  border-left:none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:3.55pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:10.0pt;
+  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
+  color:black'>5:30 PM - 6:30 PM<o:p></o:p></span></p>
+  </td>
+  <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
+  height:3.55pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
+  height:3.55pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Sigauke</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> <span class=SpellE>Cogitater</span> (Lecture
+  C105)<o:p></o:p></span></p>
+  </td>
+  <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
+  height:3.55pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Soomin Kim<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Yoora</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Kim<o:p></o:p></span></p>
+  </td>
+  <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
+  height:3.55pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:3.55pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:3.55pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=133 valign=bottom style='width:99.75pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:3.55pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -1633,7 +1774,7 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>&nbsp;1:30 PM – 2:00 PM<o:p></o:p></span></p>
+  color:black'>6:30 PM - 7:00 PM<o:p></o:p></span></p>
   </td>
   <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
@@ -1643,494 +1784,6 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=133 valign=bottom style='width:99.75pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:13;height:3.5pt'>
-  <td width=64 nowrap valign=bottom style='width:48.1pt;border:solid #3F752B 1.0pt;
-  border-top:none;mso-border-left-alt:solid #3F752B .5pt;mso-border-bottom-alt:
-  solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:3.5pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=169 nowrap valign=bottom style='width:126.7pt;border-top:none;
-  border-left:none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:3.5pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>2:00 PM - 2:40 PM<o:p></o:p></span></p>
-  </td>
-  <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid windowtext .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:3.5pt'>
-  <p class=MsoNormal><span style='font-size:10.0pt;line-height:105%;font-family:
-  "Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>Stephanie<o:p></o:p></span></p>
-  </td>
-  <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;background:white;mso-background-themecolor:
-  background1;padding:0in 5.4pt 0in 5.4pt;height:3.5pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid #3F752B .5pt;mso-border-left-alt:solid windowtext .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:3.5pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>Stephanie<o:p></o:p></span></p>
-  </td>
-  <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:3.5pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;padding:0in 5.4pt 0in 5.4pt;height:3.5pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:3.5pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=133 valign=bottom style='width:99.75pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:3.5pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:14;height:24.0pt'>
-  <td width=64 nowrap valign=bottom style='width:48.1pt;border:solid #3F752B 1.0pt;
-  border-top:none;mso-border-left-alt:solid #3F752B .5pt;mso-border-bottom-alt:
-  solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=169 nowrap valign=bottom style='width:126.7pt;border-top:none;
-  border-left:none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>2:40 PM - 3:00 PM<o:p></o:p></span></p>
-  </td>
-  <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid windowtext .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>Stephanie<o:p></o:p></span></p>
-  </td>
-  <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;background:white;mso-background-themecolor:
-  background1;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid #3F752B .5pt;mso-border-left-alt:solid windowtext .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>Stephanie<o:p></o:p></span></p>
-  </td>
-  <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=133 valign=bottom style='width:99.75pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:15;height:24.0pt'>
-  <td width=64 nowrap valign=bottom style='width:48.1pt;border:solid #3F752B 1.0pt;
-  border-top:none;mso-border-left-alt:solid #3F752B .5pt;mso-border-bottom-alt:
-  solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=169 nowrap valign=bottom style='width:126.7pt;border-top:none;
-  border-left:none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>3:00 PM - 3:30 PM<o:p></o:p></span></p>
-  </td>
-  <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid windowtext .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>Stephanie<o:p></o:p></span></p>
-  </td>
-  <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;background:white;mso-background-themecolor:
-  background1;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-left-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>Stephanie<o:p></o:p></span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>Ji Won<o:p></o:p></span></p>
-  </td>
-  <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=133 valign=bottom style='width:99.75pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:16;height:24.0pt'>
-  <td width=64 nowrap valign=bottom style='width:48.1pt;border:solid #3F752B 1.0pt;
-  border-top:none;mso-border-left-alt:solid #3F752B .5pt;mso-border-bottom-alt:
-  solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=169 nowrap valign=bottom style='width:126.7pt;border-top:none;
-  border-left:none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>3:30 PM - 4:10 PM<o:p></o:p></span></p>
-  </td>
-  <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#99CCFF;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>CSE216 (B207)<o:p></o:p></span></p>
-  </td>
-  <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>Ji Won<o:p></o:p></span></p>
-  </td>
-  <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#99CCFF;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>CSE216 (B207)<o:p></o:p></span></p>
-  </td>
-  <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=133 valign=bottom style='width:99.75pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:17;height:24.0pt'>
-  <td width=64 nowrap valign=bottom style='width:48.1pt;border:solid #3F752B 1.0pt;
-  border-top:none;mso-border-left-alt:solid #3F752B .5pt;mso-border-bottom-alt:
-  solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=169 nowrap valign=bottom style='width:126.7pt;border-top:none;
-  border-left:none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>4:10 PM - 4:50 PM<o:p></o:p></span></p>
-  </td>
-  <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
-  </td>
-  <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#99CCFF;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>CSE216 (B207)<o:p></o:p></span></p>
-  </td>
-  <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>Ji Won<o:p></o:p></span></p>
-  </td>
-  <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#99CCFF;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>CSE216 (B207)<o:p></o:p></span></p>
-  </td>
-  <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=133 valign=bottom style='width:99.75pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:18;height:24.0pt'>
-  <td width=64 nowrap valign=bottom style='width:48.1pt;border:solid #3F752B 1.0pt;
-  border-top:none;mso-border-left-alt:solid #3F752B .5pt;mso-border-bottom-alt:
-  solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>&nbsp;<o:p></o:p></span></p>
-  </td>
-  <td width=169 nowrap valign=bottom style='width:126.7pt;border-top:none;
-  border-left:none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>4:50 PM - 5:00 PM<o:p></o:p></span></p>
-  </td>
-  <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
-  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
-  <p class=MsoNormal><span style='font-size:10.0pt;line-height:105%;font-family:
-  "Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
@@ -2148,7 +1801,17 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   height:24.0pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>Ji Won<o:p></o:p></span></p>
+  mso-fareast-font-family:"Times New Roman";color:black'>Soomin Kim<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Yoora</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Kim<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Soyoon</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Jeon<o:p></o:p></span></p>
   </td>
   <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
@@ -2184,11 +1847,11 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:19;height:24.0pt'>
+ <tr style='mso-yfti-irow:13;height:2.8pt'>
   <td width=64 nowrap valign=bottom style='width:48.1pt;border:solid #3F752B 1.0pt;
   border-top:none;mso-border-left-alt:solid #3F752B .5pt;mso-border-bottom-alt:
   solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  height:2.8pt'>
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
@@ -2197,50 +1860,83 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=169 nowrap valign=bottom style='width:126.7pt;border-top:none;
   border-left:none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>5:00 PM - 5:53 PM<o:p></o:p></span></p>
+  color:black'>7:00 PM - 8:00 PM<o:p></o:p></span></p>
   </td>
   <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#99CCFF;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
+  height:2.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Sigauke</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> <span class=SpellE>Cogitater</span><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Changhyun</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Park<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>CSE216 - REC (B207) <o:p></o:p></span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>Stephanie<o:p></o:p></span></p>
+  mso-fareast-font-family:"Times New Roman";color:black'>Jong Kwon Park<o:p></o:p></span></p>
   </td>
   <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
   background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>Ji Won<o:p></o:p></span></p>
+  mso-fareast-font-family:"Times New Roman";color:black'>Salman <span
+  class=SpellE>Qavi</span><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
   background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  height:2.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Yoora</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Kim<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Soyoon</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Jeon<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
+  mso-fareast-font-family:"Times New Roman";color:black'>Jong Kwon Park<o:p></o:p></span></p>
   </td>
   <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
   background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  height:2.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Mayukh</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Maitra<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
@@ -2248,7 +1944,7 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -2256,7 +1952,7 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -2264,17 +1960,17 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=133 valign=bottom style='width:99.75pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:20;height:24.0pt'>
+ <tr style='mso-yfti-irow:14;height:2.8pt'>
   <td width=64 nowrap valign=bottom style='width:48.1pt;border:solid #3F752B 1.0pt;
   border-top:none;mso-border-left-alt:solid #3F752B .5pt;mso-border-bottom-alt:
   solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  height:2.8pt'>
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
@@ -2283,27 +1979,44 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=169 nowrap valign=bottom style='width:126.7pt;border-top:none;
   border-left:none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>7:00 PM – 8:00 PM<o:p></o:p></span></p>
+  color:black'>8:00 PM - 9:00 PM<o:p></o:p></span></p>
   </td>
   <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
   background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<span
+  class=SpellE>Sigauke</span> <span class=SpellE>Cogitater</span><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Changhyun</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Park<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Jong Kwon Park<o:p></o:p></span></p>
   </td>
   <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
   background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  height:2.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Salman <span
+  class=SpellE>Qavi</span><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
@@ -2313,17 +2026,35 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
   background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  height:2.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Yoora</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Kim<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Soyoon</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Jeon<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
+  mso-fareast-font-family:"Times New Roman";color:black'>Jong Kwon Park<o:p></o:p></span></p>
   </td>
   <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
   background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  height:2.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Mayukh</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Maitra<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
@@ -2331,7 +2062,7 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -2339,7 +2070,7 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -2347,17 +2078,17 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=133 valign=bottom style='width:99.75pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:21;height:24.0pt'>
+ <tr style='mso-yfti-irow:15;height:2.8pt'>
   <td width=64 nowrap valign=bottom style='width:48.1pt;border:solid #3F752B 1.0pt;
   border-top:none;mso-border-left-alt:solid #3F752B .5pt;mso-border-bottom-alt:
   solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  height:2.8pt'>
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
@@ -2366,25 +2097,30 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=169 nowrap valign=bottom style='width:126.7pt;border-top:none;
   border-left:none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:10.0pt;line-height:105%;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>8:00 PM – 10:00 PM<o:p></o:p></span></p>
+  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:10.0pt;
+  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
+  color:black'>9:00 PM - 10:00 PM<o:p></o:p></span></p>
   </td>
   <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;Ji Won<o:p></o:p></span></p>
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<span
+  class=SpellE>Sigauke</span> <span class=SpellE>Cogitater</span><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Changhyun</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Park<o:p></o:p></span></p>
   </td>
   <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -2394,25 +2130,29 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
   background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  height:2.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Soyoon</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Jeon<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
-  mso-border-top-alt:solid #3F752B .5pt;mso-border-top-alt:solid #3F752B .5pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:white;mso-background-themecolor:background1;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  background:white;padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<span
+  class=SpellE>Changhyun</span> Park<o:p></o:p></span></p>
   </td>
   <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -2420,7 +2160,7 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -2428,17 +2168,17 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=133 valign=bottom style='width:99.75pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:22;mso-yfti-lastrow:yes;height:24.0pt'>
+ <tr style='mso-yfti-irow:16;height:2.8pt'>
   <td width=64 nowrap valign=bottom style='width:48.1pt;border:solid #3F752B 1.0pt;
   border-top:none;mso-border-left-alt:solid #3F752B .5pt;mso-border-bottom-alt:
   solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:24.0pt'>
+  height:2.8pt'>
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
@@ -2447,24 +2187,30 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=169 nowrap valign=bottom style='width:126.7pt;border-top:none;
   border-left:none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:black'>&nbsp;<o:p></o:p></span></p>
+  color:black'>10:00 PM - 10:30 PM&nbsp;<o:p></o:p></span></p>
   </td>
   <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<span
+  class=SpellE>Sigauke</span> <span class=SpellE>Cogitater</span><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Changhyun</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Park<o:p></o:p></span></p>
   </td>
   <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -2472,7 +2218,12 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Soyoon</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Jeon<o:p></o:p></span></p>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
@@ -2480,15 +2231,16 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
-  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<span
+  class=SpellE>Changhyun</span> Park<o:p></o:p></span></p>
   </td>
   <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -2496,7 +2248,7 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -2504,7 +2256,90 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
   <td width=133 valign=bottom style='width:99.75pt;border-top:none;border-left:
   none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
   mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
-  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:24.0pt'>
+  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:17;mso-yfti-lastrow:yes;height:2.8pt'>
+  <td width=64 nowrap valign=bottom style='width:48.1pt;border:solid #3F752B 1.0pt;
+  border-top:none;mso-border-left-alt:solid #3F752B .5pt;mso-border-bottom-alt:
+  solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;padding:0in 5.4pt 0in 5.4pt;
+  height:2.8pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:10.0pt;
+  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
+  color:black'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=169 nowrap valign=bottom style='width:126.7pt;border-top:none;
+  border-left:none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:#84DCF9;padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:10.0pt;
+  font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:"Times New Roman";
+  color:black'>10:30 PM - 11:00 PM&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=160 valign=bottom style='width:120.15pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<span
+  class=SpellE>Sigauke</span> <span class=SpellE>Cogitater</span><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span class=SpellE><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>Changhyun</span></span><span
+  style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;mso-fareast-font-family:
+  "Times New Roman";color:black'> Park<o:p></o:p></span></p>
+  </td>
+  <td width=139 valign=bottom style='width:104.55pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=136 valign=bottom style='width:102.35pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=147 valign=bottom style='width:110.6pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<span
+  class=SpellE>Changhyun</span> Park<o:p></o:p></span></p>
+  </td>
+  <td width=157 valign=bottom style='width:117.5pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=159 valign=bottom style='width:119.3pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
+  mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=133 valign=bottom style='width:99.75pt;border-top:none;border-left:
+  none;border-bottom:solid #3F752B 1.0pt;border-right:solid #3F752B 1.0pt;
+  mso-border-bottom-alt:solid #3F752B .5pt;mso-border-right-alt:solid #3F752B .5pt;
+  background:#FFCC66;padding:0in 5.4pt 0in 5.4pt;height:2.8pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:10.0pt;font-family:"Gill Sans MT",sans-serif;
   mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
@@ -2515,33 +2350,118 @@ style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;<
 <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
 style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;</o:p></span></b></p>
 
+<p class=MsoNormal style='margin-left:67.5pt;text-indent:-.25in;mso-list:l0 level3 lfo2;
+tab-stops:list 1.5in'><![if !supportLists]><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%;mso-fareast-font-family:Calibri'><span
+style='mso-list:Ignore'>&#9702;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%'>Mayukh</span></span><span
+style='font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:105%'> Maitra
+(MS), 010-5923-3726, <a href="mailto:mayukh.maitra@stonybrook.edu">mayukh.maitra@stonybrook.edu</a>,
+Thursday 7:00 PM – 9:00 PM<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:67.5pt;text-indent:-.25in;mso-list:l0 level3 lfo2;
+tab-stops:list 1.5in'><![if !supportLists]><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%;mso-fareast-font-family:Calibri'><span
+style='mso-list:Ignore'>&#9702;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:105%'>Salman <span class=SpellE>Qavi</span> (MS), 010-2281-9309,
+<a href="mailto:salman.qavi@stonybrook.edu">salman.qavi@stonybrook.edu</a>,
+Tuesday 7:00 PM – 9:00 PM<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:67.5pt;text-indent:-.25in;mso-list:l0 level3 lfo2;
+tab-stops:list 1.25in 1.5in'><![if !supportLists]><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%;mso-fareast-font-family:Calibri'><span
+style='mso-list:Ignore'>&#9702;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%'>Sigauke</span></span><span
+style='font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:105%'> <span
+class=SpellE>Cogitater</span> (UG), <a
+href="mailto:cogitater.sigauke@stonybrook.edu">cogitater.sigauke@stonybrook.edu</a>
+Monday 7:00 PM - 11:00 PM, Tue 5:00 PM - 6:30 PM<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:67.5pt;text-indent:-.25in;mso-list:l0 level3 lfo2;
+tab-stops:list 1.25in 1.5in'><![if !supportLists]><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%;mso-fareast-font-family:Calibri'><span
+style='mso-list:Ignore'>&#9702;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%'>Soyoon</span></span><span
+style='font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:105%'> Jeon (UG),
+010-6631-9309, <a href="mailto:soyoon.jeon@stonybrook.edu">soyoon.jeon@stonybrook.edu</a>
+Mon 12:30 PM - 1:50 PM (Lab), Wed 6:30 PM - 10:30 PM <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:67.5pt;text-indent:-.25in;mso-list:l0 level3 lfo2;
+tab-stops:list 1.25in 1.5in'><![if !supportLists]><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%;mso-fareast-font-family:Calibri'><span
+style='mso-list:Ignore'>&#9702;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%'>Yoora</span></span><span
+style='font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:105%'> Kim (UG),
+010-4187-7700, <a href="mailto:yoora.kim@stonybrook.edu">yoora.kim@stonybrook.edu</a>
+Wed 5:00 PM - 9:00 PM, Wed 1:00 PM - 3:00 PM<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:67.5pt;text-indent:-.25in;mso-list:l0 level3 lfo2;
+tab-stops:list 1.25in 1.5in'><![if !supportLists]><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%;mso-fareast-font-family:Calibri'><span
+style='mso-list:Ignore'>&#9702;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span class=SpellE><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%'>Changhyun</span></span><span
+style='font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:105%'> Park (UG),
+010-5272-2810, <a href="mailto:changhyun.park@stonybrook.edu">changhyun.park@stonybrook.edu</a>
+Mon 7:00 PM - 11:00 PM, Thu 9:00 PM - 11:00 PM<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:67.5pt;text-indent:-.25in;mso-list:l0 level3 lfo2;
+tab-stops:list 1.25in 1.5in'><![if !supportLists]><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%;mso-fareast-font-family:Calibri'><span
+style='mso-list:Ignore'>&#9702;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:105%'>Jong Kwon Park (UG), 010-5493-0150, <a
+href="mailto:jongkwon.park@stonybrook.edu">jongkwon.park@stonybrook.edu</a>
+Mon/Wed 7:00 PM - 9:00 PM, Wed 3:00 PM - 5:00 PM<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.5in;text-indent:-.25in;mso-list:l0 level3 lfo2;
+tab-stops:1.25in'><![if !supportLists]><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%;mso-fareast-font-family:Calibri'><span
+style='mso-list:Ignore'>&#9702;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:105%'>Soomin - <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.5in;text-indent:-.25in;mso-list:l0 level3 lfo2;
+tab-stops:list 1.5in'><![if !supportLists]><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%;mso-fareast-font-family:Calibri'><span
+style='mso-list:Ignore'>&#9702;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:105%'>Mon. 12:30 PM - 1:50 PM <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.5in;text-indent:-.25in;mso-list:l0 level3 lfo2;
+tab-stops:list 1.5in'><![if !supportLists]><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%;mso-fareast-font-family:Calibri'><span
+style='mso-list:Ignore'>&#9702;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:105%'>Mon. 5:00 PM - 7:00 PM <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.5in;text-indent:-.25in;mso-list:l0 level3 lfo2;
+tab-stops:list 1.5in'><![if !supportLists]><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%;mso-fareast-font-family:Calibri'><span
+style='mso-list:Ignore'>&#9702;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:105%'>Wed. 5:00 PM - 7:00 PM<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.5in;text-indent:-.25in;mso-list:l0 level3 lfo2;
+tab-stops:list 1.5in'><![if !supportLists]><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:105%;mso-fareast-font-family:Calibri'><span
+style='mso-list:Ignore'>&#9702;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;mso-bidi-font-size:
+11.0pt;line-height:105%'>Kindly contact if extra hours are required.<o:p></o:p></span></p>
+
 <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
-style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'>Ji Won: Monday:
-8:00-10:00pm<o:p></o:p></span></b></p>
-
-<p class=MsoNormal style='text-indent:.5in'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:
-105%'>Tuesday: 5:00-6:00pm<o:p></o:p></span></b></p>
-
-<p class=MsoNormal style='text-indent:.5in'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:
-105%'>Wednesday: 3:00-5:00pm <o:p></o:p></span></b></p>
-
-<p class=MsoNormal style='text-indent:.5in'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:
-105%'>Thursday: 10:30am-12:30pm<o:p></o:p></span></b></p>
+style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;</o:p></span></b></p>
 
 <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
-style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'>Stephanie:
-Monday 10:40 – 11:40 AM, 2:00 - 3:30 PM, 5:00 – 6:00 PM<o:p></o:p></span></b></p>
+style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;</o:p></span></b></p>
 
 <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
-style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><span
-style='mso-tab-count:1'>            </span>Wednesday 2-3:30 PM<o:p></o:p></span></b></p>
-
-<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
-style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><span
-style='mso-tab-count:1'>            </span><o:p></o:p></span></b></p>
+style='font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:105%'><o:p>&nbsp;</o:p></span></b></p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
