@@ -982,9 +982,6 @@ p.msopapdefault, li.msopapdefault, div.msopapdefault
 	font-family:"Times New Roman",serif;
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
 span.GramE
 	{mso-style-name:"";
 	mso-gram-e:yes;}
@@ -1763,7 +1760,7 @@ mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="216
  style='width:229.8pt;height:281.4pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="index_files/image003.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=306 height=375
-src="index_files/image002.jpg" v:shapes="Picture_x0020_1"><![endif]></span><span
+src="index_files/image001.jpg" v:shapes="Picture_x0020_1"><![endif]></span><span
 style='font-size:10.5pt;font-family:"Times New Roman",serif;mso-ascii-theme-font:
 minor-fareast;mso-hansi-theme-font:minor-fareast;mso-bidi-theme-font:minor-fareast;
 color:#333333'><o:p></o:p></span></p>
@@ -2169,13 +2166,8 @@ dates. Check back frequently.<o:p></o:p></span></p>
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
   padding:0in 5.4pt 0in 5.4pt;height:.2in'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='mso-fareast-font-family:"Times New Roman";color:black'>Introduction
-  to OAuth2.0<o:p></o:p></span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span class=SpellE><span style='mso-fareast-font-family:"Times New Roman";
-  color:black'>Github</span></span><span style='mso-fareast-font-family:"Times New Roman";
-  color:black'> tutorial<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'>Introduction to OAuth2.0<o:p></o:p></span></p>
   </td>
   <td width=90 nowrap valign=bottom style='width:67.5pt;border-top:none;
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
@@ -2188,13 +2180,8 @@ dates. Check back frequently.<o:p></o:p></span></p>
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
   padding:0in 5.4pt 0in 5.4pt;height:.2in'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='mso-fareast-font-family:"Times New Roman";color:black'><a
-  href="Slides/PDF/Introduction%20to%20OAuth2.0.pdf">Slides</a><o:p></o:p></span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span style='mso-fareast-font-family:"Times New Roman";color:black'><a
-  href="https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners"><span
-  class=SpellE>Github</span> tutorial</a><o:p></o:p></span></p>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+  color:black'><a href="Slides/PDF/Introduction%20to%20OAuth2.0.pdf">Slides</a><o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:9;height:.2in'>
