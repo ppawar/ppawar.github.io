@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2154b33-e878-4649-9b75-0b08d91c7b4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../CSE216-S19/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSE216-S19/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CSE216-S19/index_files/filelist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSE216-S19/index_files/filelist.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CSE216-S19/index_files/image005.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CSE216-S19/index_files/image006.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CSE216-S19/index_files/image009.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CSE216-S19/index_files/props013.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSE216-S19/index_files/props013.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CSE216-S19/slides/PDF/CSE216_Lec4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSE216-S19/slides/PDF/CSE216_Lec4.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CSE216-S19/slides/PPT/CSE216_Lec4.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSE216-S19/slides/PPT/CSE216_Lec4.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CSE308-S19/~$index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CSE308-S19/~WRL0003.tmp" beforeDir="false" />
-    </list>
+    <list default="true" id="e2154b33-e878-4649-9b75-0b08d91c7b4b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +12,11 @@
     <session id="-1049002050">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,7 +32,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sieve_visualization.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="300" />
     <option name="y" value="70" />
     <option name="width" value="1495" />
@@ -69,6 +59,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -80,7 +71,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,9 +157,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
