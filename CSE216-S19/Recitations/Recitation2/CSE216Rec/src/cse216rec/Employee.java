@@ -60,8 +60,8 @@ class Employee implements Comparable<Employee> {
     */
     @Override
     public int compareTo(Employee anotherEmployee) {
-        //return this.getId() - anotherEmployee.getId();
-        return (int) (this.getSalary() - anotherEmployee.getSalary());
+        return this.getId() - anotherEmployee.getId();
+        //return (int) (this.getSalary() - anotherEmployee.getSalary());
     }
 
     // Two employees are equal if their IDs are equal

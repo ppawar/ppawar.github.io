@@ -15,19 +15,15 @@ public class PolymorphismDemo {
     System.out.println(x.toString());
   }
 }
-class GraduateStudent1 extends Student {
+class GraduateStudent1 extends Student1 {
     public String toString() {
     return "GraduateStudent";
   }
 }
-class Student1 extends Person {
-  public String toString() {
-    return "Student";
-  }
+class Student1 extends Person1 {
+
 }
 
-class Person1 extends Object {
-  public String toString() {
-    return "Person";
-  }
+class Person1  {
+
 }

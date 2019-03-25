@@ -1,4 +1,0 @@
-GraduateStudent
-PolymorphismDemo
-Student
-Person

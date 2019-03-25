@@ -16,7 +16,7 @@ public class ComparableExample {
 
         employees.add(new Employee(1010, "Rajeev", 100000.00, LocalDate.of(2010, 7, 10)));
         employees.add(new Employee(1004, "Chris", 95000.50, LocalDate.of(2017, 3, 19)));
-        employees.add(new Employee(1015, "David", 134000.00, LocalDate.of(2017, 9, 28)));
+        employees.add(new Employee(1000, "David", 134000.00, LocalDate.of(2017, 9, 28)));
 
         System.out.println("Employees (Before Sorting) : " + employees);
 
