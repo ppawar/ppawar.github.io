@@ -22,5 +22,5 @@ def sieve(n):
 
     return non_nulls(worksheet)
 
-primes = sieve(50)
+primes = sieve(5009)
 print(primes)
