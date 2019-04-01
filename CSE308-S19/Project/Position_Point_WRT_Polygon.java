@@ -5,20 +5,6 @@
  */
 package edu.sunyk.CSE216.preprocessing;
 
-//This is a java program to check whether a point lies in a polygon or not
-class Point
-{
-    int x, y;
- 
-    Point()
-    {}
- 
-    Point(int p, int q)
-    {
-        x = p;
-        y = q;
-    }
-}
  
 public class Position_Point_WRT_Polygon
 {
@@ -31,9 +17,9 @@ public class Position_Point_WRT_Polygon
         return false;
     }
  
-    public static int orientation(Point p, Point q, Point r)
+    public static double orientation(Point p, Point q, Point r)
     {
-        int val = (q.y - p.y) * (r.x - q.x) - (q.x - p.x) * (r.y - q.y);
+        double val = (q.y - p.y) * (r.x - q.x) - (q.x - p.x) * (r.y - q.y);
  
         if (val == 0)
             return 0;
@@ -43,10 +29,10 @@ public class Position_Point_WRT_Polygon
     public static boolean doIntersect(Point p1, Point q1, Point p2, Point q2)
     {
  
-        int o1 = orientation(p1, q1, p2);
-        int o2 = orientation(p1, q1, q2);
-        int o3 = orientation(p2, q2, p1);
-        int o4 = orientation(p2, q2, q1);
+        double o1 = orientation(p1, q1, p2);
+        double o2 = orientation(p1, q1, q2);
+        double o3 = orientation(p2, q2, p1);
+        double o4 = orientation(p2, q2, q1);
  
         if (o1 != o2 && o3 != o4)
             return true;
