@@ -1,0 +1,17 @@
+<?php include("../../exfront.inc"); ?>
+<script type="text/javascript" src="whois.js"></script>
+<?php include("../../exbanner.inc"); ?>
+<h3>Domain Name Registration Information</h3>
+
+whois: <input id="domain"  placeholder="kent.edu" />
+<button onclick="getwhoisinfo(document.getElementById('domain').value)"> Go </button>
+<br />
+<br />
+<div id="info" style="resize:both; padding: 1em; height:300px; overflow-y: scroll;
+width: 600px; display:inline-block; border: thin dashed black; white-space:pre">
+</div>
+<h3>Code</h3>
+<p>On Linux/UNIX systems use the Shell command:</p>
+<p><b>whois</b>  <em>domainName</em></p>
+<p>See Chapter 1 <em>Domain Name Regstration</em></p>
+</div></body></html>
