@@ -1,0 +1,52 @@
+body { line-height: 140%; 
+       margin:0; border:0; padding:0
+}
+
+div#centerpage
+{  margin-left: auto; margin-right: auto; 
+   width: 80%;
+   border: 2px solid darkblue; 
+   border-radius: 16px;
+   overflow-x: hidden;
+}
+
+header.banner { background-color: #bcd; }
+
+header.banner > section.logo
+{  font-size: xx-large;
+   font-weight: bold;
+   height: 60px;
+   padding-top: 30px;
+}
+
+header.banner > nav 
+{  background-color: darkblue; 
+   padding-left: 2em;        
+   white-space: nowrap
+}
+
+header.banner > nav a:link,
+header.banner > nav a:visited
+{  text-decoration: none;  
+   color: white;
+   margin-right: 60px;
+}
+
+header.banner > nav a:hover
+{  text-decoration: underline; }
+
+
+section#main
+{  overflow: hidden;
+   background-color: #def;
+}
+
+section#main > article 
+{  float: left;
+   width: 69%; 
+   background-color: #fed;
+   padding-left: 2em;
+}
+
+section#main > aside 
+{  float: left; padding-left: 1em; }

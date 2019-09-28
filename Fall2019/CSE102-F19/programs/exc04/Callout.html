@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head> 
+<meta charset="utf-8"/>
+<title>Translucent Callout Demo</title>
+<style>
+span.changed::before
+{  position: relative; top: -1.8em;
+   z-index: 30; width: 6em;
+   content: "Changed";
+   padding: 0.5em 0em 0.5em 0.5em;
+   background-color: gold;
+   border-right: 10px solid gold;
+   opacity: 0.7;
+   border-bottom: 10px solid white;
+   font-size: larger;  font-weight: bold;
+}
+span.changed { position: static; margin-left: -6em;}
+</style>
+</head>
+<body style="margin: 50px">
+<h1>Translucent Callout Demo</h1>
+<article>
+<p>Lorem ipsum dolor sit amet, <span class="changed">consectetur</span> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</article>
+</body></html>

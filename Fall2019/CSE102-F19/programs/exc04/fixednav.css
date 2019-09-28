@@ -1,0 +1,51 @@
+@media screen  
+{ div.navbar
+  {  background-color: #a70;
+     border: 1px #630 solid;
+     width: 170px;                     
+     padding: 3px;
+     text-align: center;
+     position: fixed;
+     left: 20px;
+     top: 120px;
+  }
+}
+
+@media print
+{ div.navbar
+  {
+     position: absolute;
+  }
+}
+
+a.button
+{  
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   background-color: #eb0; /* golden background             */
+   color: #200;            /* darker red for visibility     */
+   padding: 2px;
+   border-width: 3px;
+   border-color: #eb0;
+   border: outset;
+   text-decoration: none;
+   display: block; 
+   width: 94%;
+   margin: 3px auto 3px auto
+
+}
+
+a:hover.button
+{  color: white;
+   border-color: #eb0;
+}
+
+a:active.button
+{ 
+   border: inset;
+}
+
+div.navbar p
+{  margin-top: 3px;
+   margin-bottom: 3px;
+}

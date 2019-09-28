@@ -1,0 +1,10 @@
+div#circle
+{   width:40px;
+    height:40px;
+    background-color: red;
+    border-radius: 40px;
+    border: 15px dotted blue;
+    display: inline-block;
+    vertical-align: center;
+    margin-left: 2em;
+}

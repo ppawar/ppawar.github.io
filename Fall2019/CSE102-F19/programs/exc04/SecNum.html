@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head> 
+<meta charset="utf-8"/>
+<title>Automatic Section Numbering</title>
+<style>
+article { counter-reset: sn }
+section.numbered { counter-increment: sn }
+section.numbered h3:first-child::before
+{  content:"§" counter(sn) " "; color: darkorange;  }
+</style>
+</head>
+<body style="margin: 50px">
+<h1>Automatic Section Numbering</h1>
+<article>
+<h2>A Project Report</h2>
+<section class="numbered">
+<h3>Introduction</h3>
+</section>
+<section class="numbered">
+<h3>Background</h3>
+</section>
+<section class="numbered">
+<h3>Project Status</h3>
+</section>
+</article>
+</body></html>
