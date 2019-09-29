@@ -28,7 +28,7 @@ header.banner > nav
 header.banner > nav a:link,
 header.banner > nav a:visited
 {  text-decoration: none;  
-   color: white;
+   color: red;
    margin-right: 60px;
 }
 
