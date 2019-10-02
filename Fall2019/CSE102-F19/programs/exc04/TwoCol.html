@@ -1,49 +1,91 @@
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head> 
-<meta charset="utf-8"/>
-<title>Multicolumn Example</title> </head>
-<body >
 
-<section style="margin: 50px; column-count: 2; column-gap: 2em;
+<head>
+    <meta charset="utf-8" />
+    <title>Multicolumn Example</title>
+    <style type="text/css">
+        h1,
+        h2 {
+            color: blue
+        }
+        
+        #section1-3,
+        #section2-2 {
+            font-family: Courier, monospace;
+            color: red
+        }
+        
+        p.first {
+            text-transform: uppercase
+        }
+        
+        p.second {
+            font-style: italic
+        }
+        
+        p.third {
+            font-weight: bold
+        }
+    </style>
+</head>
+
+<body>
+
+    <section style="margin: 50px; column-count: 3; column-gap: 2em;
+column-rule: thick solid red; ">
+        <h1 style="column-span: all;">Monarch Butterfly Migration</h1>
+        <p class="first" style="color: #006600">
+            Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without
+            parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast
+            Canada and the United States to central Mexico. (from <code>worldwildlife.org</code>)</p>
+
+        <p class="second">
+            Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without
+            parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast
+            Canada and the United States to central Mexico. (from <code>worldwildlife.org</code>)</p>
+
+        <p id="section1-3">
+            Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without
+            parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast
+            Canada and the United States to central Mexico. (from <code>worldwildlife.org</code>)</p>
+
+    </section>
+
+    <section style="margin: 50px; column-count: 3; column-gap: 2em;
 column-rule: thin solid black; ">
-<h1 style="column-span: all;">Monarch Butterfly Migration</h1>
-<p>
-Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast Canada and the United States to central Mexico.
-(from <code>worldwildlife.org</code>)</p>
+        <h2 style="column-span: all;">Monarch Butterfly Migration</h2>
+        <p class="first">
+            Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without
+            parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast
+            Canada and the United States to central Mexico. (from <code>worldwildlife.org</code>)</p>
 
-<p>
-Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast Canada and the United States to central Mexico.
-(from <code>worldwildlife.org</code>)</p>
+        <p id="section2-2">
+            Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without
+            parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast
+            Canada and the United States to central Mexico. (from <code>worldwildlife.org</code>)</p>
 
-</section>
+        <p class="third">
+            Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without
+            parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast
+            Canada and the United States to central Mexico. (from <code>worldwildlife.org</code>)</p>
 
-<section style="margin: 50px; column-count: 2; column-gap: 2em;
-column-rule: thin solid black; ">
-<h1 style="column-span: all;">Monarch Butterfly Migration</h1>
-<p>
-Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast Canada and the United States to central Mexico.
-(from <code>worldwildlife.org</code>)</p>
+        <p class="first">
+            Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without
+            parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast
+            Canada and the United States to central Mexico. (from <code>worldwildlife.org</code>)</p>
 
-<p>
-Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast Canada and the United States to central Mexico.
-(from <code>worldwildlife.org</code>)</p>
+        <p class="second">
+            Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without
+            parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast
+            Canada and the United States to central Mexico. (from <code>worldwildlife.org</code>)</p>
 
-<p>
-Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast Canada and the United States to central Mexico.
-(from <code>worldwildlife.org</code>)</p>
+        <p class="third">
+            Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without
+            parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast
+            Canada and the United States to central Mexico. (from <code>worldwildlife.org</code>)</p>
 
-<p>
-Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast Canada and the United States to central Mexico.
-(from <code>worldwildlife.org</code>)</p>
+    </section>
+</body>
 
-<p>
-Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast Canada and the United States to central Mexico.
-(from <code>worldwildlife.org</code>)</p>
-
-<p>
-Of all migrations by small creatures, few are as astonishing as the one performed by the Monarch butterfly. The embodiment of fragility, these insects travel between 1,200 and 2,800 miles or more between their starting and ending points -- a feat without parallel. What is even more remarkable is that the ones that return to the places where Monarchs hibernate have never been there before. These are the great-great-great-grandchildren of those that performed the intrepid journey from southeast Canada and the United States to central Mexico.
-(from <code>worldwildlife.org</code>)</p>
-
-</section></body></html>
+</html>
