@@ -14,16 +14,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>SUNY Korea CS</o:Author>
   <o:LastAuthor>SUNY Korea CS</o:LastAuthor>
-  <o:Revision>8</o:Revision>
-  <o:TotalTime>211</o:TotalTime>
+  <o:Revision>5</o:Revision>
+  <o:TotalTime>37</o:TotalTime>
   <o:Created>2019-09-28T06:20:00Z</o:Created>
-  <o:LastSaved>2019-10-21T06:24:00Z</o:LastSaved>
+  <o:LastSaved>2019-10-21T02:54:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>89</o:Words>
-  <o:Characters>512</o:Characters>
-  <o:Lines>4</o:Lines>
+  <o:Words>15</o:Words>
+  <o:Characters>91</o:Characters>
+  <o:Lines>1</o:Lines>
   <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>600</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>105</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -670,13 +670,6 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-generic-font-family:swiss;
 	mso-font-pitch:variable;
 	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
-@font-face
-	{font-family:"Segoe UI";
-	panose-1:2 11 5 2 4 2 4 2 2 3;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-469750017 -1073683329 9 0 511 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -740,17 +733,6 @@ a:visited, span.MsoHyperlinkFollowed
 	mso-themecolor:followedhyperlink;
 	text-decoration:underline;
 	text-underline:single;}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"Balloon Text Char";
-	margin:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:9.0pt;
-	font-family:"Segoe UI",sans-serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
 span.Heading2Char
 	{mso-style-name:"Heading 2 Char";
 	mso-style-noshow:yes;
@@ -784,19 +766,6 @@ p.msonormal0, li.msonormal0, div.msonormal0
 	font-family:"Times New Roman",serif;
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
-span.BalloonTextChar
-	{mso-style-name:"Balloon Text Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Balloon Text";
-	mso-ansi-font-size:9.0pt;
-	mso-bidi-font-size:9.0pt;
-	font-family:"Segoe UI",sans-serif;
-	mso-ascii-font-family:"Segoe UI";
-	mso-hansi-font-family:"Segoe UI";
-	mso-bidi-font-family:"Segoe UI";}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -862,28 +831,6 @@ div.WordSection1
 <p class=MsoNormal><a href="av/Video.html">Video</a> </p>
 
 <p class=MsoNormal><a href="av/PDF.html">PDF</a></p>
-
-<p class=MsoNormal><a href="table/SimpleTable.html">Simple Table</a></p>
-
-<p class=MsoNormal><a href="table/Collapse.html">Collapse</a></p>
-
-<p class=MsoNormal><a href="table/Spacing.html">Spacing</a> </p>
-
-<p class=MsoNormal><a href="table/ImgComp.html">ImgComp</a></p>
-
-<p class=MsoNormal><a href="table/Align.html">Alignment</a></p>
-
-<p class=MsoNormal><a href="table/Cart.html">Shopping Cart</a></p>
-
-<p class=MsoNormal><a href="table/CenteredTable.html">Centered Table</a></p>
-
-<p class=MsoNormal><a href="table/TableWidth.html">Table Width</a></p>
-
-<p class=MsoNormal><a href="table/Spans.html">Row and Column Spans</a></p>
-
-<p class=MsoNormal><a href="table/TableNest.html">Nested Tables</a></p>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
 </div>
 
