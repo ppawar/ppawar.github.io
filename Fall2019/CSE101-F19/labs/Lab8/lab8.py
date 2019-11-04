@@ -12,7 +12,7 @@ def dictionary_test():
         print(key)
 
     """ Uncomment one more example at a time until you are done with Part 0.
-
+    """
     print('\n2. keys once more')
     for key in d.keys():
         print(key)
@@ -32,7 +32,7 @@ def dictionary_test():
     print('\n6. items yet once more')
     for key, value in d.items():
         print(key, value)
-    """
+
     return None
 
 # Part 2
@@ -51,48 +51,56 @@ def price_check():
 
     # Write code to calculate the price of a pear
     #  by using the prices dictionary
-    pear_price = 0
+    pear_price = prices["pear"]
     print("Pear: ", pear_price)
 
     # Write code to calculate the price of a banana + kiwi
     #  by using the prices dictionary
-    total = 0
+    total = prices["banana"] + prices["apple"]
     print("Banana + Apple = ", total)
 
     # Write code to check for the price of a papaya, which
     #  is not in the dictionary. This will crash your program
     #  so use an if statement check if papaya is in the dictionary
     #  and print out -1 when the price does not exist
-    papaya_price = 0
-
-
+    papaya_price = -1
+    if "papaya" in prices:
+        papaya_price = prices["papaya"]
     print("Papaya: ", papaya_price)
 
     # Set papaya to have a price of 5 in the dictionary
-
+    prices["papaya"] = 5
 
     # Now copy the above code that checks for the price of papaya
     #  and run it again. Confirm the price is 5
     papaya_price = 0
-
+    if "papaya" in prices:
+        papaya_price = prices["papaya"]
     print("Papaya (after adding a price): ", papaya_price)
 
 # Part 3
 # Implement this function as described in the lab instructions
 def destination(max_distance, places):
-
-    return None
+    if max_distance <= 0:
+        return None
+    distance = 0
+    city = "NoWhere"
+    for item in places:
+        if (places[item] <= max_distance and places[item] > distance):
+            city = item
+            distance = places[item]
+    return city
 
 def main():
+
     # Part 1
     dictionary_test()
     print()
 
-    """ Uncomment one part at a time until you are done.
     # Part 2
     price_check()
     print()
-
+   
     # Part 3
 
     # This is a dictionary of distances from Seoul to other cities (in kilometers)
@@ -107,7 +115,7 @@ def main():
     print("The farthest city <= 10 km: ", destination(10, distances)) # prints "Nowhere"
 
     # end of block comment
-    """
+
 
 if __name__ == '__main__':
     main()
