@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Menu with Transition</title>
+<link rel="stylesheet" href="transition.css" 
+      type="text/css" title="menu transition style">
+<script type="text/javascript" src="transition.js"></script>
+</head>
+<body id="top" onload="init()" onresize="menuUp()" onclick="menuUp()"
+ style="margin: 50px">
+<h1>Menu with Transition</h1>
+<p><br /></p>
+<div id="centerpage">
+<header class="banner">
+<section class="logo">Club Logo&#xA0;and&#xA0;Banner</section>
+<nav>         
+<a href="#">Main&#xA0;Page</a>
+<a href="#">Service</a>
+<span class="menulabel"  onclick="menuActivate(event, this,'activity',0,0)" 
+      onmouseover="menuDown(this, 'activity', 0, 0)">Activity</span>
+<span class="menulabel"  onclick="menuActivate(event, this,'location',0,0)" 
+      onmouseover="menuDown(this, 'location', 0, 0)">Location</span>
+<a href="#">Contact</a>
+</nav></header>
+<!-- Top Banner End -->
+<div id="contentbox"><div class="layout_table">
+<section id="main">
+<!-- Main Content Begin -->
+<div class="col1">
+<article>
+<h1 style="margin-bottom: 160px">Main Page Content<h1>
+</article></div>
+<!-- Main Content End -->
+<!-- Right Box Begin-->
+<div class="col2">
+<aside>
+<h1>Sidebar</h1>
+</aside></div>
+<!-- Right Box End-->
+</section>
+</div></div></div>
+<footer>
+<p style="text-align: center">footer</p>
+</footer>
+<?php require("menu.inc"); ?>
+</body></html>

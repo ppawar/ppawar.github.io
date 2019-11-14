@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head> 
+<meta charset="utf-8"/>
+<title>Image Rollover</title>
+<script type="text/javascript">
+function loadImage(url)
+{   if (document.images)   // if browser supports images
+    {  img = new Image();  // obtains a new image object
+       img.src = url;      // downloads the image
+       return img;
+    }
+}
+</script>
+</head><body onload="loadImage('wt2.png')" style="margin: 50px">
+<section><h1>Image Rollover</h1>
+<img src="wt1.png" alt="webtong.com logo" 
+     onmouseover="this.src='wt2.png'"
+     onmouseout="this.src='wt1.png'" />
+</section>
+</body></html>
+

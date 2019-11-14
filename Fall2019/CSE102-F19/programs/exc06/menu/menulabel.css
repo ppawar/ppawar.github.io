@@ -1,0 +1,11 @@
+@import url("layout.css");
+
+header nav span.menulabel
+{  color: white;
+   margin-right: 60px;
+}
+
+header nav span.menulabel:hover
+{  
+   text-decoration: underline;
+}
