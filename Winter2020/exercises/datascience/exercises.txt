@@ -1,0 +1,44 @@
+Visit http://data.gov, and identify five data sets that sound interesting to you. For each write a brief description, and propose three interesting things you might do with them.
+
+For each of the following data sources, propose three interesting questions you can answer by analyzing them:
+(a) Credit card billing data.
+(b) Click data from http://www.Amazon.com.
+(c) White Pages residential/commercial telephone directory.
+
+Visit Entrez, the National Center for Biotechnology Information (NCBI) portal. Investigate what data sources are available, particularly the Pubmed and Genome resources. Propose three interesting projects to explore with each of them.
+
+You would like to conduct an experiment to establish whether your friends prefer the taste of regular Coke or Diet Coke. Briefly outline a design for such a study.
+
+You would like to conduct an experiment to see whether students learn better if they study without any music, with instrumental music, or with songs that have lyrics. Briefly outline the design for such a study.
+
+For each of the following questions: (1) produce a quick guess based only on your understanding of the world, and then (2) use Google to find supportable numbers to produce a more principled estimate from. How much did your two estimates differ by?
+(a) How many piano tuners are there in the entire world?
+(b) How much does the ice in a hockey rink weigh?
+(c) How many gas stations are there in the United States?
+(d) How many people fly in and out of Incheon Airport every day?
+(e) How many gallons of ice cream are sold in the South Korea each year?
+(f) How many basketballs are purchased by the National Basketball Association (NBA) each year?
+(g) How many fish are there in all the world's oceans?
+(h) How many people are flying in the air right now, all over the world?
+(i) How many ping-pong balls can fit in a large commercial jet?
+(j) How many miles of paved road are there in your favorite country?
+(k) How many KRW bills are sitting in the wallets of all people at Sejong Academy of Arts and Science?
+(l) How many gallons of gasoline does a typical gas station sell per day?
+(m) How many words are there in this book?
+(n) How many cats live in Sejong city?
+(o) How much would it cost to fill a typical car's gas tank with Starbuck's coffee?
+(p) How much tea is there in China?
+(q) How many checking accounts are there in the United States?
+
+Kaggle Challenges:
+Who survived the shipwreck of the Titanic?
+https://www.kaggle.com/c/titanic
+Where is a particular taxi cab going?
+https://www.kaggle.com/c/pkdd-15-predict-taxi-service-trajectory-i
+How long will a given taxi trip take?
+https://www.kaggle.com/c/pkdd-15-taxi-trip-time-prediction-ii
+
+UCI machine learning repository:
+Visit UCI machine learning repository. https://archive.ics.uci.edu/ml/index.php Check some datasets and propose how these datasets can be used with Weka for data science experiments. 
+
+
