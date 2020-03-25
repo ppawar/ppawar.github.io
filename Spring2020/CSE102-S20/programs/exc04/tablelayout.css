@@ -1,0 +1,75 @@
+body { line-height: 140%; 
+       margin:0; border:0; padding:0
+}
+
+div#centerpage
+{  margin-left: auto; margin-right: auto; 
+   width: 80%;
+   border-radius: 16px;  
+   overflow-x: hidden;
+}
+
+header.banner
+{ background-color: #bcd;
+  border-top: 2px solid darkblue;
+  border-left: 2px solid darkblue;
+  border-right: 2px solid darkblue;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+header.banner section.logo
+{  display: block;
+   font-size: xx-large;
+   font-weight: bold;
+   height: 60px;
+   padding-top: 30px;
+}
+
+header.banner nav 
+{  background-color: darkblue; 
+   padding-left: 2em;
+   white-space: nowrap
+}
+
+header.banner nav a:link,
+header.banner nav a:visited
+{  text-decoration: none;  
+   color: white;
+   margin-right: 60px;
+}
+
+header.banner nav a:hover
+{  text-decoration: underline; }
+
+div#contentbox
+{  border-left: 2px solid darkblue;
+   border-right: 2px solid darkblue;
+   border-bottom: 2px solid darkblue;
+   border-bottom-left-radius: 16px;
+   border-bottom-right-radius: 16px;
+}
+
+div.layout_table
+{  display: table; width: 100%; 
+   border-spacing:0px; 
+}
+
+section#main { display: table-row; }
+
+section#main > div.col1
+{  display: table-cell;  
+   width: 75%;
+   border-bottom-left-radius: 16px;
+   background-color: white;
+}
+
+section#main > div.col2
+{  display: table-cell; 
+   width: auto;
+   background-color: #def;
+   border-bottom-right-radius: 16px;
+}
+
+div.col1 > article { padding: 2em; } 
+div.col2 > aside {  padding-left: 1em; }

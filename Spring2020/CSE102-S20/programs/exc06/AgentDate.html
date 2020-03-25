@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head> 
+<meta charset="utf-8"/>
+<title>Hello JavaScript</title>
+<link rel="stylesheet" type="text/css" href="agentdate.css" />
+</head><body style="margin: 50px">
+<section><h1>Hello JavaScript</h1>
+<p>JavaScript programming is fun.</p>
+<p>Time = <span class="generated">
+<script type="text/javascript">                        
+  var dt = new Date();                                  
+  var time = dt.getHours() +":"+ dt.getMinutes();    
+  document.write(time);</script></span></p>
+<p>UA = <span class="generated">
+<script type="text/javascript">                        
+  document.write(navigator.userAgent);
+</script></span></p></section>
+</body></html>
+

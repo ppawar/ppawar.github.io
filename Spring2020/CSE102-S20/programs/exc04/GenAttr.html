@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head> 
+<meta charset="utf-8"/>
+<title>Displaying Attributes Demo</title>
+<style>
+@media print
+{ a[href]::after
+  {   content: " (" attr(href) ")";
+  }
+}
+
+/* a::before
+{  content: url(banner.jpg);  vertical-align: middle }
+*/
+</style>
+</head>
+<body style="margin: 50px">
+<h1>Displaying Attributes Demo</h1>
+<p>Try printing, or a print preview of, this page to see what happens.  Look
+for the automatically generated URL.  The following paragraph is something
+another website might use to refer to the DWP site.</p>
+<p>Please visit the
+<a href="http://dwp.sofpower.com">DWP site</a>
+for ready-to-run examples.</p>
+</body></html>

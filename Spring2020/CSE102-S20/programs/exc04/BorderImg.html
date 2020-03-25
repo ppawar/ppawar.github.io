@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head> 
+<meta charset="utf-8"/>
+<title>Border Image Demo</title>
+<style>
+div.redbutton
+{  display: inline-block;  vertical-align: middle;
+   color: white;  font-weight: bold;
+   font-size: larger; width: 3.5em;
+   text-align: center;
+   border-width: 8px 6px;
+   border-image: url(redbutton.jpg) 20 18 stretch;
+   -moz-border-image: url(redbutton.jpg) 20 18 stretch;
+   -webkit-border-image:url(redbutton.jpg) 20 18 stretch;
+}
+
+div img {   vertical-align: middle;  }
+</style>
+</head>
+<body style="margin: 50px">
+<h1>Border Image Demo</h1>
+<div>This button <div class="redbutton">STOP</div> uses
+the border image <img src="redbutton.jpg" alt="red button image" /></div>
+<h2>Browser</h2>
+<p>If the red STOP button does not display, try Google Chrome.</p>
+</body></html>
