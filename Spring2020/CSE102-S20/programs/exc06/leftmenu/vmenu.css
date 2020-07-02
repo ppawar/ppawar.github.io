@@ -1,0 +1,32 @@
+@import url("menuvbar.css");
+
+nav.menu
+{  font-size: small;
+   background-color: darkblue;  
+   position: absolute; top:-100px; left: -200px;
+   display: block; opacity: 0;
+   width: 100%; overflow: hidden;
+   -moz-transition: height 0.7s ease-in-out;
+   -webkit-transition: height 0.7s ease-in-out;
+   -ms-transition: height 0.7s ease-in-out;
+   -o-transition: height 0.7s ease-in-out;
+   transition: height 0.7s ease-in-out;
+}
+
+nav.menu a:link,
+nav.menu a:visited
+{  padding-top: 2px;
+   margin-left: 1.5em;
+   color: white;
+   padding-bottom: 2px;
+   width: 100%;
+   text-decoration: none;
+   display: block;
+   white-space: nowrap;
+   font-weight: bold;
+}
+
+nav.menu a:hover
+{  
+   text-decoration: underline;
+}

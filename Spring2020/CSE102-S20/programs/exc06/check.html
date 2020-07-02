@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head> 
+<meta charset="utf-8"/>
+<title>Custom Input Checking Demo</title>
+<script type="text/javascript" src="check.js"></script>
+</head><body style="margin: 50px">
+<section><h1>Custom Input Checking</h1>
+<p>
+<form method="post"  onsubmit="return(checkForm(this))" 
+      action="../exc5/showpost.php">
+<label>Your 5+4 ZIP Code <input maxlength="10" required=""
+placeholder="55555-4444" name="zip_9"
+ pattern="[0-9]{5}-[0-9]{4}" size="10" /></label>  
+&#xA0;&#xA0;&#xA0;<label>Expiration date <input name="expiration_date" 
+placeholder="mm/yy"
+required="" pattern="(0[1-9]|1[0-2])/[12][1-9]"  maxlength="5"
+size="10" onchange="checkExpire(this)" /></label><br/><br/>
+<input type="submit" value="Proceed" />
+</form>
+</p>
+</section></body></html>

@@ -1,2 +1,0 @@
-<h2>Code</h2>
-<p>Source of <a href="/src.php?page=<?php echo __FILE__?>"><?php echo basename( __FILE__);?></a></p>

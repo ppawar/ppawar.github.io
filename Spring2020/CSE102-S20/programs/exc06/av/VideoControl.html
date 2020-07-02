@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head> 
+<meta charset="utf-8"/>
+<title>HTML5 Video JS Control</title> </head>
+<body style="margin: 50px">
+<section>
+<h1>Watch the Nasa Video</h1>
+<video id="nasa" width="480" height="385" poster="../../exc03/av/nasa.jpg">
+    <source src="../../exc03/av/nasa.webm" type="video/webm" />
+    <source src="../../exc03/av/nasa.ogv" type="video/ogg" />
+    <source src="../../exc03/av/nasa.mp4" type="video/mp4" />
+</video>
+<script type="text/javascript">
+var tg=document.getElementById('nasa'); </script>
+<p style="width: 480px; text-align: center">
+<img src="icons/rewind.png" width="50px" 
+     onclick="tg.currentTime=1; tg.rewind();" />
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
+<img src="icons/pause.png" width="50px" onclick="tg.pause()" />
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
+<img src="icons/play.png" width="50px" onclick="tg.play()" />
+</p>
+</section>
+</body></html>

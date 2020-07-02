@@ -1,0 +1,31 @@
+<?php $filelist= array(
+"CenterStyle.html",
+"CenterPage.html",
+"TwoCol.html",
+"MultiCol.html",
+"FloatLayout.html",
+"TableLayout.html",
+"NavPanel.html",
+"Border.html",
+"Elastic.html",
+"Circle.html",
+"TextOverflow.html",
+"Buttons.html",
+"Inset.html",
+"TextShadow.html",
+"BorderImg.html",
+"Bgclip.html",
+"Gradient.html",
+"Radial.html",
+"Rainbow.html",
+"Relative.html",
+"Absolute.html",
+"FixedNav.html",
+"Caption.html",
+"Generated.html",
+"SecNum.html",
+"GenAttr.html",
+"Callout.html"
+);
+// print_r ($filelist);
+?>

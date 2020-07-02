@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head> 
+<meta charset="utf-8"/>
+<title>A Vertical Navigation Panel</title> 
+<link rel="stylesheet" href="vmenu.css"
+      type="text/css" title="vmenu style"/>
+<script typt="text/javascript" src="vmenu.js"></script>
+</head><body style="margin: 50px">
+<h1>Sliding Left Menu</h1>
+<p><br />Try the <tt>AC</tt> and <tt>Heating</tt> menus.<br /><br /></p>
+<div id="centerpage" style="margin-bottom: 2em">
+<section id="main">
+<nav class="leftnavbar">
+<span class="self">Main Page</span>
+<?php $mid="cooling"; $mtext="A/C"; require("label.php"); ?>
+<?php $mid="heating"; $mtext="Heating"; require("label.php"); ?>
+<a href="#">Our Warranty</a>
+<a href="#">Contact Us</a>
+</nav>
+<article id="content">
+<h1 style="margin-bottom: 200px">Content of Main Page</h1>
+</article>
+</section></div>
+</body></html>

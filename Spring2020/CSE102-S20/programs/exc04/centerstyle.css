@@ -1,0 +1,15 @@
+p.center
+{   text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    color: #009
+}
+
+p.abstract
+{  margin-left: 5em; 
+   margin-right: 2em
+}
+
+h1.center, h2.center, h3.center, h4.center, h5.center, h6.center 
+{ text-align: center; color: #060 }
+
