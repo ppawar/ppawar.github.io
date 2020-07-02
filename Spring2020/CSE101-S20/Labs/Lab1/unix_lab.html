@@ -1,0 +1,300 @@
+
+<!-- saved from url=(0081)http://www3.cs.stonybrook.edu/~alexkuhn/cse101-spring2020/labs/lab1/unix_lab.html -->
+<html><script>(function main() {
+    // Create enabled event
+    function fireEnabledEvent() {
+        // If gli exists, then we are already present and shouldn't do anything
+        if (!window.gli) {
+            setTimeout(function () {
+                var enabledEvent = document.createEvent("Event");
+                enabledEvent.initEvent("WebGLEnabledEvent", true, true);
+                document.dispatchEvent(enabledEvent);
+            }, 0);
+        } else {
+            //console.log("WebGL Inspector already embedded on the page - disabling extension");
+        }
+    };
+
+    // Grab the path root from the extension
+    document.addEventListener("WebGLInspectorReadyEvent", function (e) {
+        var pathElement = document.getElementById("__webglpathroot");
+        if (window["gliloader"]) {
+            gliloader.pathRoot = pathElement.innerText;
+        } else {
+            // TODO: more?
+            window.gliCssUrl = pathElement.innerText + "gli.all.css";
+        }
+    }, false);
+
+    // Rewrite getContext to snoop for webgl
+    var originalGetContext = HTMLCanvasElement.prototype.getContext;
+    if (!HTMLCanvasElement.prototype.getContextRaw) {
+        HTMLCanvasElement.prototype.getContextRaw = originalGetContext;
+    }
+    HTMLCanvasElement.prototype.getContext = function () {
+        var ignoreCanvas = this.internalInspectorSurface;
+        if (ignoreCanvas) {
+            return originalGetContext.apply(this, arguments);
+        }
+
+        var result = originalGetContext.apply(this, arguments);
+        if (result == null) {
+            return null;
+        }
+
+        var contextNames = ["moz-webgl", "webkit-3d", "experimental-webgl", "webgl", "3d"];
+        var requestingWebGL = contextNames.indexOf(arguments[0]) != -1;
+        if (requestingWebGL) {
+            // Page is requesting a WebGL context!
+            fireEnabledEvent(this);
+
+            // If we are injected, inspect this context
+            if (window.gli) {
+                if (gli.host.inspectContext) {
+                    // TODO: pull options from extension
+                    result = gli.host.inspectContext(this, result);
+                    // NOTE: execute in a timeout so that if the dom is not yet
+                    // loaded this won't error out.
+                    window.setTimeout(function() {
+                        var hostUI = new gli.host.HostUI(result);
+                        result.hostUI = hostUI; // just so we can access it later for debugging
+                    }, 0);
+                }
+            }
+        }
+
+        return result;
+    };
+})();</script><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body>
+
+<center>
+<h2>Unix Lab</h2>
+</center>
+
+<p align="center">The purpose of this lab is to teach you some basic Unix commands
+for those who are using a <b>Mac OS X</b> machine. Mac OS X is a version of
+Unix. If you are using a Windows machine, read the <a href="http://www3.cs.stonybrook.edu/~alexkuhn/cse101-spring2020/labs/lab1/dos_lab.html">DOS Lab</a> instead.</p>
+
+<hr>
+
+<h2>Introduction</h2>
+
+<p>You are probably already familiar with interacting with files and folders
+  on your Mac through the "Finder" program. Finder is a GUI
+  (<a href="https://en.wikipedia.org/wiki/Graphical_user_interface">Graphical User Interface</a>)
+  which allows you to navigate through your file system and create new folders
+  and documents, and organize them in ways that make sense to you.
+  Sometimes in programming however, you will need to use your file system in a different way. For this, on Mac, you will use a program called "Terminal". Terminal is known as
+  a CLI (<a href="https://en.wikipedia.org/wiki/Command-line_interface">Command Line Interface</a>).
+  That means in addition to accessing your file system, you can also use Terminal
+  to run Python programs directly, among many other programming tasks.</p>
+
+<p>The purpose of this lab is to introduce you to some of the basic commands you
+will commonly use when interacting with Terminal. Many of these are very short
+abbreviations of longer words or phrases, so knowing what they stand for may help
+you remember and understand them better. If you are curious to explore the full list
+of Unix commands, you can find it <a href="https://en.wikipedia.org/wiki/List_of_Unix_commands">here</a>.</p>
+
+<p> Also note that the file system on your computer is structured in a <em>hierarchical</em> way. That means that
+files and folders are nested inside of other folders. There is some specific terminology we will use
+when dealing with hierarchical structures like this: <a href="https://en.wikipedia.org/wiki/Directory_(computing)">directory</a> (also called <em>folder</em>), parent directory,
+sub-directory, and file. When one directory contains another directory, the containing one is
+called the "parent directory", and the contained one is called the "sub-directory."</p>
+
+<h2>Instructions</h2>
+
+<h4>1. Launching Terminal</h4>
+<ol>
+<li>Open a new Finder window by clicking the "Finder" icon on your dock</li>
+<li>Navigate to the "Applications" directory (usually shown on the left side of Finder, under "Favorites")</li>
+<li>Open the "Utilities" folder from within Applications</li>
+<li>Open the "Terminal" program</li>
+</ol>
+<p>You should see a mostly-blank window open that shows your computer username,
+followed by the <font face="courier">$</font> symbol. This is called the Terminal
+<b>prompt</b>, and you will often read or hear the phrase "enter this text at the prompt."
+That means type that text after the <font face="courier">$</font>.</p>
+
+<p>Whenever you open a new Terminal window like this, you will be put into the "Home"
+  directory. This is equivalent to opening a new Finder window and clicking on the entry
+  in your "Favorites" that has the small house icon next to it.</p>
+
+<p>Note: You may want to add the Terminal program to your Mac's Dock for easier access. To do
+this, drag the Terminal program from within the <font face="courier">Applications/Utilities</font> folder in Finder
+on to your Dock.</p>
+
+<h4>2. Entering Commands</h4>
+
+<p>An important thing to note is that in the command prompt you can use "tab-complete" to automatically
+finish the name of a file or directory so you don't have to type the whole thing. This will
+save you a tremendous amount of time and avoid typing mistakes. To tab-complete, begin typing
+the name of the file or directory and then hit the Tab key. If the command prompt is able to map what
+you've typed to a unique location, it will complete the name for you. If the command prompt finds multiple
+files or folders with a similar name, it will not autocomplete since it cannot figure out which file you mean,
+and you need to type more characters until it can get a specific match.</p>
+
+<p>If at any point you want more information about a particular command you have entered, you can type
+
+</p><pre>  <span style="background-color: #bdd1dd">man</span>
+</pre>
+
+followed by the name of the command you want information on.  <font face="courier">man</font> stands for <em>manual</em>, and this command will display the instruction manual for that command, including a description
+of what it does and all the extra options you can add to change what the command does.
+To exit from viewing the manual page, type <font face="courier">q</font> (for <em>quit</em>). Now you try it yourself!
+
+<p><u>Enter the following at the terminal prompt:</u></p>
+<pre>  <span style="background-color: #bdd1dd">man pwd</span>
+</pre>
+
+<p>The <font face="courier">pwd</font> command stands for <em>print working directory</em>,
+  and it tells you where the terminal program is currently looking in within your file system, using the absolute <a href="https://en.wikipedia.org/wiki/Path_(computing)">path</a>. You can always use this command to verify what folder
+  or directory you are inside of.
+</p>
+
+<h4>3. Navigating</h4>
+
+<p>In the following exercises, you will try moving around various directories
+and creating and modifying files on your computer. As you follow the steps, try to find the same
+directories and files using the Finder program at the same time so you can see
+the effects of the commands you are entering.</p>
+
+<h2>The Lab</h2>
+
+<p>
+  1. Navigate to your Desktop within Terminal
+
+</p><pre>  <span style="background-color: #bdd1dd">cd Desktop/</span>
+</pre>
+
+The <font face="courier">cd</font> command stands for <em>connect directory</em>, and it moves
+you in Terminal to the directory you entered after <font face="courier">cd</font>. Note that Desktop has a
+<font face="courier">/</font> character at the end. This indicates that Desktop is a directory,
+rather than a file.
+<p></p>
+
+<p>
+2. Create a new directory
+
+</p><pre>  <span style="background-color: #bdd1dd">mkdir NewDirectory</span>
+</pre>
+
+<font face="courier">mkdir</font> stands for <em>make directory</em>, and it creates a new
+directory (or folder) named whatever you type after <font face="courier">mkdir</font>.
+<p></p>
+
+<p>
+3. List all of the files and directories in your current location
+
+</p><pre>  <span style="background-color: #bdd1dd">ls</span>
+</pre>
+
+<font face="courier">ls</font> stands for <em>list</em>. <font face="courier">ls</font> is often
+used with extra options to print out more information than just file names. For example, <font face="courier">ls -l</font> (a lowercase letter L, not a number 1) will print out all files and directories using
+their <em>long</em> form, which includes permissions, file size, time last edited, and other metadata
+about each file. You can use the <font face="courier">man</font> command to find out more about all the options available to use with each command, for example <font face="courier">man ls</font>.
+<p></p>
+
+<p>
+4. Move in to "NewDirectory", the directory you just created
+
+</p><pre>  <span style="background-color: #bdd1dd">cd NewDirectory/</span>
+</pre>
+
+Remember what <font face="courier">cd</font> means? This time you are moving down a level in the
+file hierarchy. If at any point you want to get back to your Home directory, no matter where you
+are in the file system, you can just type <font face="courier">cd</font> with nothing after it,
+and you will be returned to the Home directory.
+<p></p>
+
+<p>
+5. Create a new blank file within NewDirectory
+
+</p><pre>  <span style="background-color: #bdd1dd">touch HelloUnix.txt</span>
+</pre>
+
+By entering the <font face="courier">.txt</font> at the end of the filename, you are creating a new
+file that is a text file. If you entered a different <em>extension</em>, you would be creating a
+different type of file. For example, many image files end in <font face="courier">.jpg</font> to indicate
+they are JPEG files.
+<p></p>
+
+<p>
+6. Comparing with Finder
+</p>
+
+<p>All the changes you make in Terminal are reflected on your actual file system, which you can see in Finder. Now you are going to see that it works the other way too! Go back to your Finder window, navigate manually to <font face="courier">NewDirectory</font> and open the <font face="courier">HelloUnix.txt</font> file. It should open in the your default text editor (likely TextEdit). Type your name, your major, and your favorite color on separate lines
+and then save the file and close it using the "X". Then go back to the Terminal window.
+</p>
+
+<p>
+  7. View the contents of HelloUnix.txt
+
+</p><pre>  <span style="background-color: #bdd1dd">more HelloUnix.txt</span>
+</pre>
+
+In addition to the <font face="courier">more</font> command, which shows you the contents of the file
+page by page, you can also view just the beginning of a file's contents using the
+<font face="courier">head</font> command, and just the end of a file's contents using the
+<font face="courier">tail</font> command. To exit from viewing the file's contents, type <font face="courier">q</font>.
+<p></p>
+
+<p>
+8. Rename the new file you just created
+
+</p><pre>  <span style="background-color: #bdd1dd">mv HelloUnix.txt GoodbyeUnix.txt</span>
+</pre>
+
+<font face="courier">mv</font> stands for <em>move</em>. But wait, aren't you supposed to <em>rename</em> the file, not move it? Well to your computer's file system, they are the same thing, because the "name" of something is actually the
+location on the computer where it is stored, so from the computer's perspective, renaming a file means moving it to a different spot.
+<p></p>
+
+<p>
+9. Delete the file you just renamed
+
+</p><pre>  <span style="background-color: #bdd1dd">rm -i GoodbyeUnix.txt</span>
+</pre>
+
+Here you use the <font face="courier">-i</font> option with <font face="courier">rm</font> so that you
+get a confirmation prompt before deleting the file, because once a file has been deleted, it is gone
+forever! If you are sure you want to delete something, you can omit the <font face="courier">-i</font>
+option and just enter <font face="courier">rm &lt;filename&gt;</font>, but be careful with that command!
+<p></p>
+
+<p>
+10. Navigate out of NewDirectory, back to your Desktop
+
+</p><pre>  <span style="background-color: #bdd1dd">cd ..</span>
+</pre>
+
+A single . indicates the directory you are in. If you typed <font face="courier">cd .</font>
+nothing would happen! But when you use two dots, that means go to the <em>parent</em> directory of
+wherever you are. It moves you one level up the hierarchy.
+<p></p>
+
+<p>
+11. View a list of all the commands you just typed
+
+</p><pre>  <span style="background-color: #bdd1dd">history</span>
+</pre>
+
+<font face="courier">history</font> will show you, in reverse order, all of the commands you have entered
+into Terminal so far.
+<p></p>
+
+<p>
+12. View the location of your Python 3 installation
+
+</p><pre>  <span style="background-color: #bdd1dd">which python3</span>
+</pre>
+
+<p>
+And with that, you're done with the lab! Make sure you speak to your TA or instructor to get their sign off that you have completed the exercises, and don't forget to create a file named <font face="courier">outputs.txt</font> and copy and paste all of the input and output you just generated in Terminal there, save it, and upload it to Blackboard.
+</p>
+<p>
+If you are interested in learning more about Unix and the Terminal, Wikipedia's page on <a href="https://en.wikipedia.org/wiki/Unix">Unix</a> and Apple's <a href="https://help.apple.com/advancedserveradmin/mac/10.8/#apd5D86CA04-6736-47CB-80DC-101526EE5AB0">Command Line Documentation</a> are a good place to start!
+</p>
+
+
+
+
+</body></html>

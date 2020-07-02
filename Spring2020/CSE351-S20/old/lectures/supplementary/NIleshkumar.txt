@@ -1,0 +1,65 @@
+Scala is used commonly in Spark and important language to learn. 
+
+Neo4j: tree structured database
+Casandra: Columnar data
+MongoDB: NoSQL data store
+Cloud computing definition: A group of network of a computer which provide storage and computing power and managed by the users.
+CC Companies: AWS (80%), Azure, GCP, IBM 
+
+Service #1 - Amazon S3. (Key-value storage)
+Service #2 - Amazon EC2 [Elastic Compute Cloud] (Computing power)
+Service #3 - AWS Lambda. ()
+Service #4 - Amazon Glacier.
+Service #5 - Amazon SNS.
+Service #6 - Amazon CloudFront.
+Service #7 - Amazon EBS [Elastic Block Store]
+Service #8 - Amazon Kinesis.
+
+AWS documentation: https://mindmajix.com/top-aws-services
+https://docs.aws.amazon.com/general/latest/gr/aws-general.pdf
+
+Amazon certificaion: https://aws.amazon.com/certification/certified-solutions-architect-associate/
+ 
+https://cloudacademy.com/blog/choosing-the-right-aws-certification/
+
+AWS Certified Cloud Practitioner
+AWS Certified Developer – Associate
+AWS Certified SysOps Administrator – Associate
+AWS Certified Solutions Architect – Associate
+*Note: new exam version (SAA-C02) starts March 22, 2020
+AWS Certified DevOps Engineer – Professional
+AWS Certified Solutions Architect – Professional
+AWS Certified Advanced Networking – Specialty
+AWS Certified Security – Specialty
+AWS Certified Machine Learning – Specialty
+AWS Certified Database – Specialty (coming soon)
+*Note: brand new certification starts April 6, 2020
+AWS Certified Data Analytics – Specialty (coming soon)
+*Note: new certification name and exam version starts April 13, 2020 (formerly AWS Certified Big Data – Specialty)
+AWS Certified Alexa Skill Builder – Specialty
+
+Interview: 
+
+Call from hiring manager - General question
+Telephonic round (45 minutes - coding question by sharing screen)
+Type of questions: (Algorithm/data structure - sorting, searching, graphs, dynamic programming)
+Validate IP address
+Graph breadth search
+Find substring using recursion
+Face to face round (5-6 people)
+
+Data science tools: Spark, Hive, Flame, Scikit, Tensorflow
+Tableau
+
+Some projects:
+Apple online store: Fetch online store data, Which product is selling more? Genderwise, agewise?
+
+Some websites:
+HackerRank, LeetCode
+
+A good book on Software Engineering:
+Pressman software engineering - A practioners approach book
+
+Kakao Talk number: 
++1 510-938-4498
+
