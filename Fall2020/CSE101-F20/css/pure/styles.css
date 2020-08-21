@@ -1,5 +1,5 @@
 body {
-    color: #777;
+    color: #AAA;
 }
 
 .pure-img-responsive {
@@ -69,7 +69,7 @@ The content `<div>` is where all your content goes.
 .content-subhead {
     margin: 50px 0 20px 0;
     font-weight: 300;
-    color: #888;
+    color: #BBB;
 }
 
 
@@ -94,7 +94,7 @@ appears on the left side of the page.
     All anchors inside the menu should be styled like this.
     */
     #menu a {
-        color: #999;
+        color: #BBB;
         border: none;
         padding: 0.6em 0 0.6em 0.6em;
     }
